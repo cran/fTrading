@@ -15,8 +15,8 @@
 # MA  02111-1307  USA
 
 # Copyrights (C)
-# for this R-port: 
-#   1999 - 2007, Diethelm Wuertz, GPL
+# for this R-port:
+#   1999 - 2008, Diethelm Wuertz, Rmetrics Foundation, GPL
 #   Diethelm Wuertz <wuertz@itp.phys.ethz.ch>
 #   info@rmetrics.org
 #   www.rmetrics.org
@@ -30,21 +30,19 @@
 ################################################################################
 
 
-.First.lib =  
+.First.lib =
 function(lib, pkg)
-{   
+{
     # Startup Mesage and Desription:
     MSG <- if(getRversion() >= "2.5") packageStartupMessage else message
     dsc <- packageDescription(pkg)
-    if(interactive() || getOption("verbose")) { 
+    if(interactive() || getOption("verbose")) {
         # not in test scripts
-        MSG(sprintf("\nPackage %s (%s) loaded.\n%s\n",
-            pkg, dsc$Version, dsc$Title),
-            "Rmetrics, (C) 1999-2007, Diethelm Wuertz, GPL\n")
+        MSG(sprintf("Rmetrics Package %s (%s) loaded.", pkg, dsc$Version))
     }
 
     # Load dll:
-    # library.dynam("fTrading", pkg, lib) 
+    # library.dynam("fTrading", pkg, lib)
 }
 
 
