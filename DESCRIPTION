@@ -1,5 +1,5 @@
 Package: fTrading
-Version: 2160.77
+Version: 3010.78
 Revision: 5400
 Date: 2012-11-30
 Title: Technical Trading Analysis
@@ -15,6 +15,7 @@ NOTE: SEVERAL PARTS ARE STILL PRELIMINARY AND MAY BE CHANGED IN THE
 LazyData: yes
 License: GPL (>= 2)
 URL: http://www.rmetrics.org
-Packaged: 2012-11-30 09:27:36 UTC; yankee
+Packaged: 2013-12-10 21:57:14 UTC; yohan
+NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2012-11-30 10:09:47
+Date/Publication: 2013-12-10 23:39:57
