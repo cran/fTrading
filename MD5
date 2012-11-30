@@ -1,12 +1,11 @@
-6a9284cd4e0943c549b0dae2534a340e *ChangeLog
-201d4c3957782804f4a8efe6aa06dc0d *DESCRIPTION
-5f64d9702b70b5bf5639d041c1065572 *NAMESPACE
-261e9569f8d4b34efeabe44921380cb5 *R/BenchmarkAnalysis.R
+9091d138ab56e51cddf1bc64c2d488c2 *ChangeLog
+4ed5a35b3d22c7825a9ea6f905399ac5 *DESCRIPTION
+faafcf1bcc9fa04ac5c4bbfe093bb618 *NAMESPACE
+5aa3f5b8b7e9565e4b303e233ebbf022 *R/BenchmarkAnalysis.R
 17dfe27d34ed0eadda0200fa874a9778 *R/TechnicalAnalysis.R
 8d5622d54d50ef72c23ab1d1a337d673 *R/rollFun.R
 0e29b518e22bc0cf058396a3e7e1b708 *R/zzz.R
 6042b9c5e5bec3ecc1b6959cd2858b64 *inst/COPYRIGHT.html
-8b32ea564a484f83d2bbbabef35dc37e *inst/DocCopying.pdf
 fb4840c9f583963d64c0ffd9a4a102ae *inst/unitTests/Makefile
 c611ed7809f950e7e45acfc24e72f0b3 *inst/unitTests/runTests.R
 7fd45601fc104c232ca5ecaee7dccf97 *inst/unitTests/runit.BenchmarkAnalysis.R
