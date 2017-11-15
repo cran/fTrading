@@ -1,21 +1,21 @@
 Package: fTrading
-Version: 3010.78
-Revision: 5400
-Date: 2012-11-30
-Title: Technical Trading Analysis
-Author: Diethelm Wuertz and many others, see the SOURCE file
-Depends: R (>= 2.4.0), methods, timeDate, timeSeries, fBasics
-Suggests: RUnit, tcltk
-Maintainer: Yohan Chalabi <yohan.chalabi@rmetrics.org>
-Description: Environment for teaching "Financial Engineering and
-        Computational Finance"
-NOTE: SEVERAL PARTS ARE STILL PRELIMINARY AND MAY BE CHANGED IN THE
-        FUTURE. THIS TYPICALLY INCLUDES FUNCTION AND ARGUMENT NAMES, AS
-        WELL AS DEFAULTS FOR ARGUMENTS AND RETURN VALUES.
+Title: Rmetrics - Trading and Rebalancing Financial Instruments
+Date: 2017-11-12
+Version: 3042.79
+Author: Diethelm Wuertz [aut],
+	Tobias Setz [cre],
+	Yohan Chalabi [ctb]
+Maintainer: Tobias Setz <tobias.setz@live.com>
+Description: A collection of functions for trading and rebalancing financial
+	instruments. It implements various technical indicators to analyse time series such
+	as moving averages or stochastic oscillators.
+Depends: R (>= 2.15.1), timeDate, timeSeries, fBasics
+Imports: graphics, stats
+Suggests: methods, RUnit, tcltk
 LazyData: yes
 License: GPL (>= 2)
 URL: http://www.rmetrics.org
-Packaged: 2013-12-10 21:57:14 UTC; yohan
 NeedsCompilation: no
+Packaged: 2017-11-15 19:19:22 UTC; Tobias Setz
 Repository: CRAN
-Date/Publication: 2013-12-10 23:39:57
+Date/Publication: 2017-11-15 22:37:38 UTC
